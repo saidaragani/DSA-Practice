@@ -1,0 +1,31 @@
+/*
+int[] arr = Arrays.stream(sc.nextLine().split(","))
+                .map(String::trim)
+                .mapToInt(Integer::parseInt)
+                .toArray();
+*/
+
+/*
+String[] arr = sc.nextLine().split(",");
+List<Integer> list = new arrayList<Integer>();
+
+for(String s : arr){
+    list.add(Integer.parseInt(s.trim()));
+ }
+*/
+
+/*
+String[] arr = sc.nextLine().split(",");
+int[] Arr = new int[arr.length];
+for(int i = 0;i < arr.length; i++){
+    Arr[i] = Integer.parseInt(arr[i].trim()):
+}
+*/
+
+/* THIS contains arraylist other methods might ask for int[]
+
+List<Integer> arr = Arrays.stream(sc.nextLine().split(","))
+.map(String::trim)
+.map(Integer::parseInt)
+.toList();
+*/
